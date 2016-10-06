@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7f1d4cec-7412-438b-babb-62fca48d6a7b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2359/ErrorCollectService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="a64acb38-cc1e-46b6-b1a3-48bdecd33728" SourceId="1" SourceUrl="http://localhost:2359/ErrorCollectService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a4e79fe3-f2ff-4858-8c38-c9ec0610eb10" SourceId="1" SourceUrl="http://localhost:2359/ErrorCollectService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="499b5dbe-3b82-486e-91c9-01a14a02b3a7" SourceId="1" SourceUrl="http://localhost:2359/ErrorCollectService/mex" />
+    <MetadataFile FileName="System.Collections.Generic.xsd" MetadataType="Schema" ID="f975f9fa-f748-4600-8dde-a53293c58d99" SourceId="1" SourceUrl="http://localhost:2359/ErrorCollectService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="847e2672b58e4933b7841dd2ccacf9b8" Name="Diagram1" ZoomLevel="68" >
+        <EntityTypeShape EntityType="ErrorCollectModel.Occurance" Width="1.5" PointX="4.5" PointY="8.125" />
+        <EntityTypeShape EntityType="ErrorCollectModel.ExceptionLog" Width="1.5" PointX="7" PointY="7.5" />
+        <EntityTypeShape EntityType="ErrorCollectModel.ExceptionData" Width="1.625" PointX="6.875" PointY="11.5" />
+        <EntityTypeShape EntityType="ErrorCollectModel.ExceptionDataEntry" Width="2.125" PointX="6.625" PointY="13.875" />
+        <AssociationConnector Association="ErrorCollectModel.DataDataEntry" />
+        <EntityTypeShape EntityType="ErrorCollectModel.Message" Width="1.5" PointX="9.5" PointY="7.25" />
+        <AssociationConnector Association="ErrorCollectModel.MessageExceptionLog" />
+        <EntityTypeShape EntityType="ErrorCollectModel.HelpLink" Width="1.5" PointX="9.5" PointY="9" />
+        <AssociationConnector Association="ErrorCollectModel.HelpLinkExceptionLog" />
+        <EntityTypeShape EntityType="ErrorCollectModel.Source" Width="1.5" PointX="9.125" PointY="11" />
+        <AssociationConnector Association="ErrorCollectModel.SourceExceptionLog" />
+        <AssociationConnector Association="ErrorCollectModel.DataExceptionLog" />
+        <EntityTypeShape EntityType="ErrorCollectModel.ExceptionType" Width="1.5" PointX="9.125" PointY="5.25" />
+        <AssociationConnector Association="ErrorCollectModel.ExceptionTypeExceptionLog" />
+        <AssociationConnector Association="ErrorCollectModel.OccuranceExceptionLog" />
+        <EntityTypeShape EntityType="ErrorCollectModel.Session" Width="1.5" PointX="4.5" PointY="11.5" />
+        <EntityTypeShape EntityType="ErrorCollectModel.Platform" Width="1.5" PointX="4.5" PointY="14.75" />
+        <EntityTypeShape EntityType="ErrorCollectModel.Device" Width="1.5" PointX="2" PointY="10.875" />
+        <EntityTypeShape EntityType="ErrorCollectModel.User" Width="1.5" PointX="2" PointY="13" />
+        <AssociationConnector Association="ErrorCollectModel.OccuranceSession" />
+        <AssociationConnector Association="ErrorCollectModel.SessionPlatform" />
+        <AssociationConnector Association="ErrorCollectModel.DeviceSession" />
+        <AssociationConnector Association="ErrorCollectModel.SessionUser" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

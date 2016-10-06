@@ -1,7 +1,7 @@
 # Unity Generated
-DuplexClientUnity/[Tt]emp/
-DuplexClientUnity/[Ll]ibrary/
-DuplexClientUnity/[Oo]bj/
+ErrorCollectUnity/[Tt]emp/
+ErrorCollectUnity/[Ll]ibrary/
+ErrorCollectUnity/[Oo]bj/
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -28,3 +28,5 @@ desktop.ini
 .Trashes
 ehthumbs.db
 Thumbs.db
+ErrorCollectTests/bin/
+packages/
